@@ -27,12 +27,10 @@ export const userService = {
     },
 
     async getAll(){
-
         return UserRepository.getAllUsers()
     },
 
     async getById(id: number){
-
         return UserRepository.getUserById(id)
     },
 
