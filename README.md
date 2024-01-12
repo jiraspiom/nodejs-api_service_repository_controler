@@ -1,22 +1,7 @@
-project exemple for 
-reporitoy;
-service;
-controller;
-
-begin
-
-npx prisma migrate dev
-
-config for sqlite
-
-npx prisma init --datasource-provider SQLite
-
-
-
 ![logo_do_projeto](https://i.imgur.com/kkkkkk.png)
 
 # Nome do projeto
-Uma breve descrição do projeto aqui.
+Projeto para expor padrão Repository, Service e Controller
 
 ## 🔥 Introdução
 Coloque aqui as instruções e quais são os objetivos deste projeto, funcionalidades.
@@ -35,11 +20,11 @@ desde instalar e rodar o projeto.
 
 - Etapas para instalar:
 ```
-Codigo, exemplo
+npm run install
 ```
 Passo 2:
 ```
-Codigo, exemplo
+npm run dev
 ```
 
 ### ⚒️ Executando testes
@@ -58,8 +43,21 @@ Esse projeto está sob a licença (nome da licença) - acesse os detalhes [LICEN
 
 ### FAQ - pergunta frequentes
 
-#### 💬 pergunta 1
-resposta pergnta 1
+#### 💬 Como iniciar o banco de dados
+execute o comando
+```bash
+npx prisma migrate dev
+```
+
+#### 💬 Como inciar o Bando de dados SQLite
+```bash
+npx prisma init --datasource-provider SQLite
+```
+
+#### 💬 Como ja baixar as tabelad do banco de dados
+```bash
+npx prisma db pull
+```
 
 
 ### 💡 Expressões de gratidão
