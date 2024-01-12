@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "npx tsx watch src/server.ts",
     "lint": "eslint src --ext .ts --fix",
-    "build": "tsup src && npx prisma generate",
+    "build": "tsup src && npx prisma deploy",
     "start": "node dist/server.js"
   },
   "keywords": [],
