@@ -20,7 +20,7 @@ export const userService = {
     const user = await UserRepository.getUserByEmail(email)
 
     if (!user || user.password !== password) {
-      throw new Error('Credenciais invalidas')
+      throw new Error('Credenciais inválidas')
     }
 
     return user
