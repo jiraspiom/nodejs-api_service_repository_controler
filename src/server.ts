@@ -1,7 +1,7 @@
-import jwt from '@fastify/jwt';
+import jwt from '@fastify/jwt'
 import cors from '@fastify/cors'
-import fastify from 'fastify';
-import { configureRouters } from './routers';
+import fastify from 'fastify'
+import { configureRouters } from './routers'
 
 const server = fastify({ logger: true })
 
@@ -10,8 +10,8 @@ server.register(cors, {
 })
 
 server.register(jwt, {
-  secret: 'supersecretkey', 
-});
+  secret: 'supersecretkey',
+})
 
 configureRouters(server)
 
