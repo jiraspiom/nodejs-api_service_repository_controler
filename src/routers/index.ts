@@ -1,6 +1,6 @@
 import { FastifyInstance } from 'fastify'
 import { userRoutes } from './userRoutes'
-import { LancamentoRoutes } from './LancamentoRoutes'
+import { LancamentoRoutes } from './lancamentoRoutes'
 
 export const configureRouters = (fastify: FastifyInstance) => {
   fastify.register(userRoutes, { prefix: '/users' })

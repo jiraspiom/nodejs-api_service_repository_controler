@@ -18,10 +18,12 @@ model User {
 }
 
 model Lancamento {
-  id         Int      @id @default(autoincrement())
+  id         Int       @id @default(autoincrement())
   data       DateTime
   operacao   String
   setor      String
   quantidade Int
   preco      Decimal
+  create_at  DateTime
+  update_at  DateTime?
 }
