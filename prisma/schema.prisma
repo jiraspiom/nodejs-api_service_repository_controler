@@ -21,6 +21,7 @@ model Lancamento {
   id         Int       @id @default(autoincrement())
   data       DateTime
   operacao   String
+  ativo      String
   setor      String
   quantidade Int
   preco      Decimal

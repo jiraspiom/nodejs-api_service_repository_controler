@@ -1,5 +1,5 @@
 import { LancamentoData } from '../interfaces/LancamentoInterface'
-import { LancamentoRepository } from '../repository/LancementoRepository'
+import { LancamentoRepository } from '../repository/LancamentoRepository'
 
 export const LancamentoService = {
   async register(dado: LancamentoData) {

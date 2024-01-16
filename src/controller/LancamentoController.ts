@@ -11,7 +11,7 @@ export const LancamentoController = {
       const lancamento = await LancamentoService.register(Dado)
       reply.send(lancamento)
     } catch (error) {
-      reply.status(500).send({ error: 'Erro ao registrar lançamento' })
+      reply.status(500).send({ erro: 'Erro ao registrar lançamento', error })
     }
   },
 
@@ -20,7 +20,7 @@ export const LancamentoController = {
       const dados = await LancamentoService.getAll()
       reply.send(dados)
     } catch (error) {
-      reply.status(500).send({ error: 'Erro ao lançamentos' })
+      reply.status(500).send({ erro: 'Erro ao lançamentos', error })
     }
   },
 
@@ -39,7 +39,7 @@ export const LancamentoController = {
         reply.status(404).send({ erro: 'Lançamento não encontrado' })
       }
     } catch (error) {
-      reply.status(500).send({ error: 'Erro ao obter lançamento por ID' })
+      reply.status(500).send({ erro: 'Erro ao obter lançamento por ID', error })
     }
   },
 
@@ -54,7 +54,7 @@ export const LancamentoController = {
       const updatedUser = await LancamentoService.update(Id, dado)
       reply.send(updatedUser)
     } catch (error) {
-      reply.status(500).send({ error: 'Erro ao atualizar lançamento' })
+      reply.status(500).send({ erro: 'Erro ao atualizar lançamento', error })
     }
   },
 
@@ -68,7 +68,7 @@ export const LancamentoController = {
       await LancamentoService.remove(Id)
       reply.send({ message: 'Lançamento removido com sucesso' })
     } catch (error) {
-      reply.status(500).send({ error: 'Erro ao remover lançamento' })
+      reply.status(500).send({ erro: 'Erro ao remover lançamento', error })
     }
   },
 }
