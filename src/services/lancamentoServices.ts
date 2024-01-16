@@ -10,15 +10,15 @@ export const LancamentoService = {
     return LancamentoRepository.getAllLancementos()
   },
 
-  async getById(id: number) {
+  async getById(id: string) {
     return LancamentoRepository.getLancamentoById(id)
   },
 
-  async update(id: number, dado: LancamentoData) {
+  async update(id: string, dado: LancamentoData) {
     return LancamentoRepository.updateLancemento(id, dado)
   },
 
-  async remove(id: number) {
+  async remove(id: string) {
     return LancamentoRepository.removerLancemento(id)
   },
 }

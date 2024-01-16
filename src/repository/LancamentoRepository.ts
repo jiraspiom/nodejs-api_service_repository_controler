@@ -16,11 +16,12 @@ export const LancamentoRepository = {
     return prisma.lancamento.findMany()
   },
 
-  async getLancamentoById(id: number) {
+  async getLancamentoById(id: string) {
+    console.log('o idi iaqui', id)
     return prisma.lancamento.findUnique({ where: { id } })
   },
 
-  async updateLancemento(id: number, dado: LancamentoData) {
+  async updateLancemento(id: string, dado: LancamentoData) {
     const dataAtual = new Date()
     dataAtual.setUTCHours(dataAtual.getUTCHours() - 3)
     dado.update_at = dataAtual
@@ -28,7 +29,7 @@ export const LancamentoRepository = {
     return prisma.lancamento.update({ where: { id }, data: dado })
   },
 
-  async removerLancemento(id: number) {
+  async removerLancemento(id: string) {
     return prisma.lancamento.delete({ where: { id } })
   },
 }

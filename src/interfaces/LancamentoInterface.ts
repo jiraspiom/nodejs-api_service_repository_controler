@@ -6,7 +6,7 @@ export const LancamentoSchema = z.object({
   ativo: z.string(),
   setor: z.string(),
   quantidade: z.number(),
-  preco: z.number(),
+  preco: z.string(),
   create_at: z.date(),
   update_at: z.date().optional(),
 })

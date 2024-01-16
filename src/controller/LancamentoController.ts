@@ -29,7 +29,8 @@ export const LancamentoController = {
     reply: FastifyReply,
   ) {
     try {
-      const Id = parseInt(request.params.id, 10)
+      // const Id = parseInt(request.params.id, 10)
+      const Id = request.params.id
 
       const dado = await LancamentoService.getById(Id)
 
@@ -48,7 +49,7 @@ export const LancamentoController = {
     reply: FastifyReply,
   ) {
     try {
-      const Id = parseInt(request.params.id, 10)
+      const Id = request.params.id
       const dado: LancamentoData = request.body as LancamentoData
 
       const updatedUser = await LancamentoService.update(Id, dado)
@@ -63,7 +64,7 @@ export const LancamentoController = {
     reply: FastifyReply,
   ) {
     try {
-      const Id = parseInt(request.params.id, 10)
+      const Id = request.params.id
 
       await LancamentoService.remove(Id)
       reply.send({ message: 'Lançamento removido com sucesso' })

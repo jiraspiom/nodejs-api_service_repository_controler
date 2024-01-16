@@ -5,21 +5,21 @@ const prisma = new PrismaClient()
 
 export const UserRepository = {
   async createUser(userData: UserData) {
-    return prisma.user.create({ data: userData })
+    return prisma.usuario.create({ data: userData })
   },
   async getUserByEmail(email: string) {
-    return prisma.user.findUnique({ where: { email } })
+    return prisma.usuario.findUnique({ where: { email } })
   },
   async getAllUsers() {
-    return prisma.user.findMany()
+    return prisma.usuario.findMany()
   },
-  async getUserById(id: number) {
-    return prisma.user.findUnique({ where: { id } })
+  async getUserById(id: string) {
+    return prisma.usuario.findUnique({ where: { id } })
   },
-  async updateUser(id: number, userData: UserData) {
-    return prisma.user.update({ where: { id }, data: userData })
+  async updateUser(id: string, userData: UserData) {
+    return prisma.usuario.update({ where: { id }, data: userData })
   },
-  async removerUser(id: number) {
-    return prisma.user.delete({ where: { id } })
+  async removerUser(id: string) {
+    return prisma.usuario.delete({ where: { id } })
   },
 }
