@@ -1,0 +1,442 @@
+[
+	{
+		"data": "2023-08-04T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "MXRF11",
+		"setor": "PAPEL",
+		"quantidade": 51,
+		"preco": "10.67"
+	},
+	{
+		"data": "2023-08-07T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "RBRF11",
+		"setor": "FOFS",
+		"quantidade": 1,
+		"preco": "88.29"
+	},
+	{
+		"data": "2023-08-07T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "TEPP11",
+		"setor": "LAJES",
+		"quantidade": 1,
+		"preco": "89.67"
+	},
+	{
+		"data": "2023-08-07T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VGIR11",
+		"setor": "PAPEL",
+		"quantidade": 10,
+		"preco": "9.80"
+	},
+	{
+		"data": "2023-08-07T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VILG11",
+		"setor": "LOGISTICA",
+		"quantidade": 1,
+		"preco": "109.96"
+	},
+	{
+		"data": "2023-08-07T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VISC11",
+		"setor": "SHOPPINGS",
+		"quantidade": 1,
+		"preco": "123.56"
+	},
+	{
+		"data": "2023-08-11T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "BTCI11",
+		"setor": "PAPEL",
+		"quantidade": 11,
+		"preco": "9.55"
+	},
+	{
+		"data": "2023-08-11T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "KNRI11",
+		"setor": "LAJES",
+		"quantidade": 1,
+		"preco": "159.70"
+	},
+	{
+		"data": "2023-08-11T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "MXRF11",
+		"setor": "PAPEL",
+		"quantidade": 37,
+		"preco": "10.51"
+	},
+	{
+		"data": "2023-08-11T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VCJR11",
+		"setor": "PAPEL",
+		"quantidade": 1,
+		"preco": "90.00"
+	},
+	{
+		"data": "2023-08-11T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VINO11",
+		"setor": "LAJES",
+		"quantidade": 11,
+		"preco": "9.24"
+	},
+	{
+		"data": "2023-08-11T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "SNAG11",
+		"setor": "AGRO",
+		"quantidade": 10,
+		"preco": "10.30"
+	},
+	{
+		"data": "2023-08-14T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VGIA11",
+		"setor": "AGRO",
+		"quantidade": 10,
+		"preco": "9.57"
+	},
+	{
+		"data": "2023-08-14T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VILG11",
+		"setor": "LOGÍSTICA",
+		"quantidade": 1,
+		"preco": "111.50"
+	},
+	{
+		"data": "2023-08-14T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "MALL11",
+		"setor": "SHOPPINGS",
+		"quantidade": 1,
+		"preco": "116.62"
+	},
+	{
+		"data": "2023-08-14T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "JSRE11",
+		"setor": "LAJES",
+		"quantidade": 1,
+		"preco": "78.00"
+	},
+	{
+		"data": "2023-08-14T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VILG11",
+		"setor": "LOGÍSTICA",
+		"quantidade": 2,
+		"preco": "111.50"
+	},
+	{
+		"data": "2023-08-14T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "RURA11",
+		"setor": "AGRO",
+		"quantidade": 1,
+		"preco": "10.48"
+	},
+	{
+		"data": "2023-08-14T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "MALL11",
+		"setor": "SHOPPINGS",
+		"quantidade": 2,
+		"preco": "116.50"
+	},
+	{
+		"data": "2023-08-14T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "KISU11",
+		"setor": "FOFS",
+		"quantidade": 23,
+		"preco": "8.66"
+	},
+	{
+		"data": "2023-08-14T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "SNAG11",
+		"setor": "AGRO",
+		"quantidade": 9,
+		"preco": "10.30"
+	},
+	{
+		"data": "2023-08-16T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "OUJP11",
+		"setor": "PAPEL",
+		"quantidade": 1,
+		"preco": "100.31"
+	},
+	{
+		"data": "2023-08-16T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "KNCR11",
+		"setor": "PAPEL",
+		"quantidade": 1,
+		"preco": "98.95"
+	},
+	{
+		"data": "2023-08-28T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VGIA11",
+		"setor": "AGRO",
+		"quantidade": 10,
+		"preco": "8.47"
+	},
+	{
+		"data": "2023-09-04T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "HGRE11",
+		"setor": "LAJES",
+		"quantidade": 1,
+		"preco": "135.72"
+	},
+	{
+		"data": "2023-09-04T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "HSML11",
+		"setor": "SHOPPINGS",
+		"quantidade": 1,
+		"preco": "95.60"
+	},
+	{
+		"data": "2023-09-04T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "RBRP11",
+		"setor": "LAJES",
+		"quantidade": 1,
+		"preco": "59.58"
+	},
+	{
+		"data": "2023-09-04T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "BTLG11",
+		"setor": "LOGÍSTICA",
+		"quantidade": 1,
+		"preco": "104.60"
+	},
+	{
+		"data": "2023-09-04T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "IRDM11",
+		"setor": "PAPEL",
+		"quantidade": 1,
+		"preco": "82.25"
+	},
+	{
+		"data": "2023-09-04T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "KNSC11",
+		"setor": "PAPEL",
+		"quantidade": 1,
+		"preco": "90.02"
+	},
+	{
+		"data": "2023-09-04T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "XPLG11",
+		"setor": "LOGÍSTICA",
+		"quantidade": 1,
+		"preco": "112.49"
+	},
+	{
+		"data": "2023-09-04T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "RECR11",
+		"setor": "PAPEL",
+		"quantidade": 1,
+		"preco": "89.69"
+	},
+	{
+		"data": "2023-09-04T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VIUR11",
+		"setor": "VAREJO",
+		"quantidade": 10,
+		"preco": "8.34"
+	},
+	{
+		"data": "2023-09-04T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "RBRF11",
+		"setor": "FOFS",
+		"quantidade": 1,
+		"preco": "85.63"
+	},
+	{
+		"data": "2023-09-04T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VILG11",
+		"setor": "LOGÍSTICA",
+		"quantidade": 1,
+		"preco": "106.21"
+	},
+	{
+		"data": "2023-09-04T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "JSRE11",
+		"setor": "LAJES",
+		"quantidade": 1,
+		"preco": "75.99"
+	},
+	{
+		"data": "2023-09-04T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VIUR11",
+		"setor": "VAREJO",
+		"quantidade": 10,
+		"preco": "8.36"
+	},
+	{
+		"data": "2023-10-17T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "HGLG11",
+		"setor": "LOGÍSTICA",
+		"quantidade": 1,
+		"preco": "159.23"
+	},
+	{
+		"data": "2023-10-17T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "PVBI11",
+		"setor": "LOGÍSTICA",
+		"quantidade": 1,
+		"preco": "106.35"
+	},
+	{
+		"data": "2023-10-17T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "TRXF11",
+		"setor": "VAREJO",
+		"quantidade": 1,
+		"preco": "107.70"
+	},
+	{
+		"data": "2023-10-17T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "TRXF11",
+		"setor": "VAREJO",
+		"quantidade": 1,
+		"preco": "107.78"
+	},
+	{
+		"data": "2023-10-17T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "HGRU11",
+		"setor": "VAREJO",
+		"quantidade": 1,
+		"preco": "129.56"
+	},
+	{
+		"data": "2023-10-17T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "KNCA11",
+		"setor": "AGRO",
+		"quantidade": 1,
+		"preco": "105.43"
+	},
+	{
+		"data": "2023-10-25T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "LVBI11",
+		"setor": "LOGÍSTICA",
+		"quantidade": 1,
+		"preco": "118.29"
+	},
+	{
+		"data": "2023-10-25T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VILG11",
+		"setor": "LOGÍSTICA",
+		"quantidade": 1,
+		"preco": "103.49"
+	},
+	{
+		"data": "2023-11-10T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "RBRP11",
+		"setor": "LAJES",
+		"quantidade": 3,
+		"preco": "51.40"
+	},
+	{
+		"data": "2023-11-10T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "JSRE11",
+		"setor": "LAJES",
+		"quantidade": 2,
+		"preco": "70.30"
+	},
+	{
+		"data": "2023-11-10T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VGIA11",
+		"setor": "AGRO",
+		"quantidade": 20,
+		"preco": "9.40"
+	},
+	{
+		"data": "2023-11-10T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VINO11",
+		"setor": "LAJES",
+		"quantidade": 25,
+		"preco": "7.86"
+	},
+	{
+		"data": "2023-12-11T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "HSML11",
+		"setor": "SHOPPINGS",
+		"quantidade": 5,
+		"preco": "92.29"
+	},
+	{
+		"data": "2023-12-28T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VIUR11",
+		"setor": "VAREJO",
+		"quantidade": 29,
+		"preco": "7.97"
+	},
+	{
+		"data": "2023-12-28T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VGIA11",
+		"setor": "AGRO",
+		"quantidade": 10,
+		"preco": "8.95"
+	},
+	{
+		"data": "2023-12-28T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "RECR11",
+		"setor": "PAPEL",
+		"quantidade": 5,
+		"preco": "87.93"
+	},
+	{
+		"data": "2024-01-15T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "RURA11",
+		"setor": "AGRO",
+		"quantidade": 10,
+		"preco": "10.62"
+	},
+	{
+		"data": "2024-01-15T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "KNSC11",
+		"setor": "PAPEL",
+		"quantidade": 5,
+		"preco": "9.14"
+	}
+]
