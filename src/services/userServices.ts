@@ -30,15 +30,15 @@ export const userService = {
     return UserRepository.getAllUsers()
   },
 
-  async getById(id: number) {
+  async getById(id: string) {
     return UserRepository.getUserById(id)
   },
 
-  async update(id: number, userData: UserData) {
+  async update(id: string, userData: UserData) {
     return UserRepository.updateUser(id, userData)
   },
 
-  async remove(id: number) {
+  async remove(id: string) {
     return UserRepository.removerUser(id)
   },
 }
