@@ -48,7 +48,7 @@ export const lancamentoCalculadoController = {
 
       reply.send(novo)
     } catch (error) {
-      reply.status(500).send({ erro: 'Erro ao lançar', error })
+      reply.status(500).send({ erro: 'Erro ao calcular', error })
     }
   },
 }

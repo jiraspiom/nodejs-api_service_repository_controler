@@ -438,5 +438,85 @@
 		"setor": "PAPEL",
 		"quantidade": 5,
 		"preco": "9.14"
+	},
+	{
+		"data": "2024-01-25T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "IRDM11",
+		"setor": "PAPEL",
+		"quantidade": 5,
+		"preco": "77.75"
+	},
+	{
+		"data": "2024-01-25T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "XPLG11",
+		"setor": "LOGÍSTICA",
+		"quantidade": 2,
+		"preco": "109.89"
+	},
+	{
+		"data": "2024-01-25T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VISC11",
+		"setor": "SHOPPINGS",
+		"quantidade": 2,
+		"preco": "120.98"
+	},
+	{
+		"data": "2024-01-25T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VGIA11",
+		"setor": "AGRO",
+		"quantidade": 2,
+		"preco": "8.96"
+	},
+	{
+		"data": "2024-01-25T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "KISU11",
+		"setor": "FOFS",
+		"quantidade": 9,
+		"preco": "8.45"
+	},
+	{
+		"data": "2024-01-25T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VINO11",
+		"setor": "LAJES",
+		"quantidade": 4,
+		"preco": "8.11"
+	},
+	{
+		"data": "2024-01-25T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "IRDM11",
+		"setor": "PAPEL",
+		"quantidade": 2,
+		"preco": "77.69"
+	},
+	{
+		"data": "2024-01-25T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "VIUR11",
+		"setor": "VAREJO",
+		"quantidade": 6,
+		"preco": "7.83"
+	},
+	{
+		"data": "2024-01-25T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "JSRE11",
+		"setor": "LAJES",
+		"quantidade": 1,
+		"preco": "75.52"
+	},
+	{
+		"data": "2024-01-25T00:00:00.000Z",
+		"operacao": "COMPRA",
+		"ativo": "MXRF11",
+		"setor": "PAPEL",
+		"quantidade": 2,
+		"preco": "10.70"
 	}
 ]
